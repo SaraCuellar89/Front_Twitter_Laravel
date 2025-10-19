@@ -70,7 +70,9 @@ const Perfil = () => {
 
             const datos = await res.json()
 
-            console.log(datos)
+            //Hay que eliminar el token
+            localStorage.removeItem("token");
+
             navigate('/')
         }
         catch(error){

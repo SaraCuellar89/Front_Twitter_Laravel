@@ -13,9 +13,11 @@ const App = () => {
         <Routes>
           <Route path="/" element = {<Principal/>}/>
           <Route path="/Registro" element = {<Registro/>}/>
-          <Route path="/Inicio" element = {<Inicio/>}/>
-          <Route path="/Perfil" element = {<Perfil/>}/>
-          <Route path="/Editar_Post/:id_post" element = {<Editar_Post/>}/>
+
+          {/* Rutas Protegidas */}
+          <Route path="/Inicio" element = {<Rutas_Protegidas><Inicio/></Rutas_Protegidas>}/>
+          <Route path="/Perfil" element = {<Rutas_Protegidas><Perfil/></Rutas_Protegidas>}/>
+          <Route path="/Editar_Post/:id_post" element = {<Rutas_Protegidas><Editar_Post/></Rutas_Protegidas>}/>
         </Routes>
       </BrowserRouter>
     </div>

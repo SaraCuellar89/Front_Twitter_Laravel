@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Principal from "./Paginas/Principal";
 import Registro from "./Paginas/Registro";
 import Inicio from "./Paginas/Inicio";
@@ -10,7 +10,7 @@ import Rutas_Protegidas from "./Paginas/Rutas_Protegidas";
 const App = () => {
   return(
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element = {<Principal/>}/>
           <Route path="/Registro" element = {<Registro/>}/>
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/Perfil" element = {<Rutas_Protegidas><Perfil/></Rutas_Protegidas>}/>
           <Route path="/Editar_Post/:id_post" element = {<Rutas_Protegidas><Editar_Post/></Rutas_Protegidas>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }

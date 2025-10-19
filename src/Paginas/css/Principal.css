@@ -1,0 +1,16 @@
+.contenedor_principal{
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.contenedor_principal >:first-child{
+    width: 100%;
+}
+
+.contenedor_principal >:last-child{
+    width: 100%;
+}

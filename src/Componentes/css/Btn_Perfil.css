@@ -1,0 +1,17 @@
+.btn_perfil > a > img{
+    position: fixed;
+    bottom: 20vh;
+    right: 5vh;
+    width: 90px;
+    border-radius: 50%;
+    border: var(--border_1);
+    filter: var(--sombra_2);
+    cursor: pointer;
+    transition: .3s;
+    background-color: #97A6A0;
+}
+
+.btn_perfil > a > img:hover{
+    filter: var(--sombra_3);
+    transform: scale(1.03);
+}

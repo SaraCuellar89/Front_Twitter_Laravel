@@ -1,0 +1,71 @@
+/* Contenedor */
+.contenedor_formu_inicio_sesion{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: auto;
+}
+
+/* Titulo */
+.contenedor_formu_inicio_sesion > h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Formulario */
+.contenedor_formu_inicio_sesion > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Divs del formulario */
+.contenedor_formu_inicio_sesion > form > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor_formu_inicio_sesion > form > div > label,
+.contenedor_formu_inicio_sesion > form > div > label{
+    font-size: 35px;
+}
+
+.contenedor_formu_inicio_sesion > form > div > input,
+.contenedor_formu_inicio_sesion > form > div > select{
+    width: 50%;
+    font-size: 35px;
+    border-radius: 20px;
+    border: var(--border_1);
+    padding: 5px;
+}
+
+.ver_contrasena{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.contenedor_formu_inicio_sesion > form >:last-child > button{
+    font-size: 35px;
+    width: 50%;
+    min-width: fit-content;
+    border-radius: 20px;
+    background-color: var(--color_3);
+    border: var(--border_1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contenedor_formu_inicio_sesion > form >:last-child > button:hover{
+    box-shadow: var(--sombra_1);
+}
+
+.contenedor_formu_inicio_sesion > form >:last-child:last-child{
+    font-size: 25px;   
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Jaini", system-ui;
+}
+
+/* Variables */
+:root{
+    --color_1: #387373;
+    --color_2: #0D1F21;
+    --color_3: #93BFB7;
+    --color_4: #E4F2E7;
+    
+    --border_1: solid 3px var(--color_2);
+    --border_2: solid 3px var(--color_1);
+
+    --sombra_1: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    --sombra_2: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+    --sombra_3: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.8));
+}
+
+body{
+    background-color: var(--color_4);
+}

@@ -1,0 +1,78 @@
+/* Contenedor */
+.contenedor_registrar_publicaciones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Formulario */
+.contenedor_registrar_publicaciones > form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+/* Divs del formulario */
+.contenedor_registrar_publicaciones > form > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenedor_registrar_publicaciones > form > div > label{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenedor_registrar_publicaciones > form > div > input,
+.contenedor_registrar_publicaciones > form > div > textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: transparent;
+    font-size: 25px;
+    border-radius: 20px;
+    border: var(--border_1);
+    padding: 5px;
+}
+.contenedor_registrar_publicaciones > form > button,
+.contenedor_registrar_publicaciones > form >div:last-child > button{
+    font-size: 35px;
+    width: 30%;
+    min-width: fit-content;
+    border-radius: 20px;
+    background-color: var(--color_3);
+    border: var(--border_1);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contenedor_registrar_publicaciones > form > button:hover,
+.contenedor_registrar_publicaciones > form >div:last-child > button:hover{
+    box-shadow: var(--sombra_1);
+}
+
+.contenedor_registrar_publicaciones > hr{
+    width: 100%;
+    margin: 20px 0px;
+    border: solid 1px black;
+}
+
+.contenedor_registrar_publicaciones > form >div:last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

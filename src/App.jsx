@@ -5,6 +5,7 @@ import Registro from "./Paginas/Registro";
 import Inicio from "./Paginas/Inicio";
 import Perfil from "./Paginas/Perfil";
 import Editar_Post from "./Paginas/Editar_Post";
+import Rutas_Protegidas from "./Paginas/Rutas_Protegidas";
 
 const App = () => {
   return(
